@@ -1,0 +1,108 @@
+
+dy {
+  margin: 20px;
+}
+
+.section-title {
+  font: 15px Futura;
+  color: #999;
+}
+
+.boardmaster-div {
+  display: flex;
+}
+
+.board-div {
+  width: 250px;
+  height: 250px;
+}
+
+.wizard-div {
+  flex-grow: 1
+}
+
+.wizard-input {
+
+}
+
+.wizard-output {
+  border: 1px solid #000;
+  width: 400px;
+  height: 30px;
+}
+
+.scratchpad .textinput {
+  font: 10x Futura;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square .cell-black {
+  background: #000;
+  border: 1px solid #000;
+  float: left;
+  height: 36px;
+  width: 36px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+}
+
+.square .cell {
+  background: #fff;
+  border: 1px solid #000;
+  float: left;
+  height: 36px;
+  width: 36px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+}
+
+.square .cell-selected {
+  background: #ffda00;
+  border: 1px solid #000;
+  float: left;
+  height: 36px;
+  width: 36px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+}
+
+.square .cell-group-selected {
+  background: #a7d8ff;
+  border: 1px solid #000;
+  float: left;
+  height: 36px;
+  width: 36px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+}
+
+.square .cell-text {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font: 20px "Century Gothic", Futura, sans-serif;
+}
+
+.square .cell-pos {
+  position: absolute;
+  font: 10px "Century Gothic", Futura, sans-serif;
+}
+
